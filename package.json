@@ -1,0 +1,17 @@
+{
+  "name": "ukhra-express",
+  "version": "1.0.0",
+  "description": "Ukhra Express - Local Directory & Express Delivery",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "keywords": ["local-directory", "express-delivery", "ukhra"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
