@@ -345,6 +345,7 @@
 
   <!-- Cart Drawer Overlay -->
   <div id="cartDrawer" class="fixed inset-0 z-50 overflow-hidden hidden">
+    <!-- Backdrop -->
     <div onclick="toggleCartDrawer()" class="absolute inset-0 bg-slate-900/50 backdrop-blur-xs transition-opacity"></div>
 
     <div class="fixed inset-y-0 right-0 max-w-full flex pl-10">
@@ -368,9 +369,10 @@
 
         <!-- Checkout Controls Section -->
         <div class="p-4 bg-slate-50 border-t border-slate-200 space-y-4">
+          
+          <!-- Delivery Slot Selector -->
           <div class="space-y-1.5">
             <label class="text-xs font-bold text-slate-700 flex items-center justify-between">
               <span>Select Delivery Slot:</span>
               <span class="text-[10px] text-brand-600 font-semibold">Ukhra Express Delivery</span>
-            </label>
-            <select id="deliverySlot" class="w-full bg-white b
+        
